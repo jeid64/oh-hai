@@ -59,7 +59,7 @@
 
       if(isset($_ENV["SLOPPY_DOMAIN"])) {
         ?>
-        <h3>My Domain is <code><?php echo $_ENV["SLOPPY_DOMAIN"]; ?></code></h3>
+        <h3>My Domain is <code><?php echo phpinfo(); ?></code></h3>
         <?php
       }
       ?>
